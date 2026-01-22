@@ -1,0 +1,13 @@
+
+num: int = int(input("enter a number: "))
+sum: int = 0
+count: int = 0
+
+while num != -999:
+    sum += num
+    count += 1
+    num = int(input("enter a number: "))
+print("the sum is", sum, "and there were", count, "numbers")
+
+
+
